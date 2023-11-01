@@ -39,7 +39,7 @@ def handle_uploaded_file(f):
 
 def restore(f):
     username = 'ec2-user'
-    vm_ip_address = '10.40.1.101'
+    vm_ip_address = 'add ip adress'
     remote_file_path = '/home/ec2-user/file.txt'
     script_directory = os.path.dirname(os.path.abspath(__file__))
     
